@@ -8,6 +8,7 @@ Your Stack class will have the following member functions:
  • pop(): removes element from the top of the stack and returns the element.
  • top(): returns the element that is at the top of the stack without removing the element.
  • isempty(): return whether the stack is empty or not. Returns True when the stack is empty, False otherwise.
+ 
  """
 
 class Stack:
