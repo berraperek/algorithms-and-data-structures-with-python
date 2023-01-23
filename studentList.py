@@ -1,5 +1,4 @@
 """
-Problem:
 You are given two text files. One (studentList.txt) includes all student IDs that have already registered for the course
 CENG888. The other file (studentListGroup.txt) contains the group id and group members (student ids in the group).
 You are to do the following tasks in the programming question:
