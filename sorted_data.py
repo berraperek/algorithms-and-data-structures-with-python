@@ -1,3 +1,12 @@
+"""
+Given a queue of integers that are already sorted by absolute value, modify it such that integers are sorted normally. You
+are allowed to use only one helper stack. For instance, the input queue at left should be converted to the one at right with
+your function.
+Example: {1, −3, 5, −8, 9, 12, −20} → {−20, −8, −3, 1, 5, 9, 12}
+
+"""
+
+
 from Queue import Queue
 from Stack import Stack
 
