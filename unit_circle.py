@@ -1,3 +1,12 @@
+"""
+Task:
+In this problem, you are to find a point’s location with respect to the unit circle and the angle it makes with the x-axis.
+Location can be on/in/outside the circle. For angle (θ) calculation, you need to use arctan (from the math library) to find in terms of radian 
+and convert it to degree.
+Definition: A unit circle is a circle on the Cartesian Plane that has a radius of 1 unit and is centered at the origin
+(0, 0).
+"""
+
 import math
 
 
