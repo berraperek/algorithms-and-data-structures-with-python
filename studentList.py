@@ -1,3 +1,15 @@
+"""
+Problem:
+You are given two text files. One (studentList.txt) includes all student IDs that have already registered for the course
+CENG888. The other file (studentListGroup.txt) contains the group id and group members (student ids in the group).
+You are to do the following tasks in the programming question:
+  • You are to print the students who haven’t joined a group.
+  • You are expected to print the students (who already have a group but are not registered for the course) and
+    discard those students from the groups.
+  • The groups are expected to consist of exactly five people. Your task here is to list the groups that have fewer
+    people than five. Then, you should randomly assign the students (who haven’t joined a group) to a group.
+"""
+
 with open("studentList.txt", 'r') as f1, open("studentListGroup.txt", 'r') as f2:
     student_list_txt = f1.read()
     studentList = student_list_txt.split("\n")    # migrate "studentList.txt" file to list
