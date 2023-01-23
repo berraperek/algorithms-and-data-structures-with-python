@@ -1,3 +1,28 @@
+"""
+Problem:
+
+A government agency asks a software company to make a tender management system. This system includes the following
+features of a binary search tree (BST) based software.
+1. The tender management system based on BST is implemented.
+2. While each company joins the tender, they enter the company name and the bid price into the tender application
+   system.
+3. The first joining company for the tender is considered the root of BST. A function (joinTender) must fulfill this
+   service.
+4. Subsequently, the system places the joining companies in the BST according to their bid price. (joinTender) function
+   must fulfill this service.
+5. In case a company wants to withdraw from tender, a function (withdrawFromTender) must complete this service.
+6. A function called findWinner finds the minimum bid price and returns the company name and its bid price.
+7. The software must have a function (printMaxtoMin) that prints the joining companies according to their bid prices
+   (from maximum to minimum bid price).
+8. The software must have a function (printInOrder) that prints the joining companies in in-order according to the
+   formed BST.
+9. The software must have a function (printPreOrder) that prints the joining companies in pre-order according to the
+   formed BST.
+10. The software must have a function (printPostOrder) that prints the joining companies in post-order according to
+    the formed BST.
+
+"""
+
 class Company:
     def __init__(self, name, bidPrice):
         self.name = name
