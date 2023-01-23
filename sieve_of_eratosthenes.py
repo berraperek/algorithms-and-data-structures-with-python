@@ -1,3 +1,10 @@
+"""
+Write a program that finds prime numbers using the Sieve of Erastosthenes, an algorithm devised by a Greek
+mathematician of the same name who lived in the third century BC. The algorithm finds all prime numbers up to some
+maximum value n.
+
+"""
+
 from Queue import Queue
 
 
