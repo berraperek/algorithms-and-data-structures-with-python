@@ -6,7 +6,6 @@ Example: {1, −3, 5, −8, 9, 12, −20} → {−20, −8, −3, 1, 5, 9, 12}
 
 """
 
-
 from Queue import Queue
 from Stack import Stack
 
